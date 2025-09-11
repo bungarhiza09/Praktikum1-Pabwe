@@ -1,0 +1,72 @@
+
+<!--
+FILE: detail-blog.html
+Description: Halaman detail blog dengan cover, author, tanggal, judul, label, deskripsi, form komentar, dan daftar komentar.
+-->
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <title>Detail Blog - Belajar HTML Dasar untuk Pemula</title>
+</head>
+<body>
+  <nav>
+    <a href="index-blog.html">Blog</a> |
+    <a href="detail-blog.html">Detail Blog</a> |
+    <a href="register.html">Form Pendaftaran</a> |
+    <a href="grades.html">Tabel Perolehan Nilai</a> |
+    <a href="cv.html">Curriculum Vitae</a>
+  </nav>
+
+  <article>
+    <h1>Belajar HTML Dasar untuk Pemula</h1>
+    <p><img src="html.png" alt="Cover Artikel" /></p>
+    <p>Penulis: <strong>Bunga Rhiza Sitorus</strong> <img src="bunga.jpg" alt="Foto Author" width="20" height="20" /> | 23 Agustus 2025</p>
+    <p>Label: HTML, Web, Frontend</p>
+
+    <section>
+      <h2>Deskripsi</h2>
+      <p>Artikel ini menjelaskan konsep dasar HTML: struktur dokumen, elemen-elemen penting seperti &lt;head&gt;, &lt;body&gt;, heading, paragraf, tautan, gambar, dan form. Ditulis untuk pemula yang ingin membuat halaman web statis tanpa CSS dan JavaScript.</p>
+    </section>
+
+    <section>
+      <h2>Berikan Komentar</h2>
+      <form action="#" method="post">
+        <p>
+          <label>Nama: <input type="text" name="nama" required></label>
+        </p>
+        <p>
+          <label>Foto (url): <input type="text" name="foto"></label>
+        </p>
+        <p>
+          <label>Komentar:</label><br>
+          <textarea name="komentar" rows="4" cols="50" required></textarea>
+        </p>
+        <p>
+          <button type="submit">Kirim</button>
+          <button type="reset">Reset</button>
+        </p>
+      </form>
+    </section>
+
+    <section>
+      <h2>Daftar Komentar</h2>
+
+      <div>
+        <p><img src="software.jpeg" alt="Foto Komentator" width="20" height="20"/> <strong>Tania</strong></p>
+        <p>Bagus sekali artikelnya, sangat membantu untuk pemula!</p>
+      </div>
+
+      <div>
+        <p><img src="html.png" alt="Foto Komentator" width="20" height="20"/> <strong>Vanesa</strong></p>
+        <p>Penjelasan rapi dan mudah dimengerti. Terima kasih.</p>
+      </div>
+
+    </section>
+  </article>
+
+  <footer>
+    <p>&copy; 2025 Bunga-Blog</p>
+  </footer>
+</body>
+</html>

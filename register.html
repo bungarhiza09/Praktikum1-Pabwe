@@ -1,0 +1,73 @@
+
+<!--
+FILE: register.html
+Description: Form Pendaftaran berisi berbagai input: nama lengkap, jenis kelamin (radio), tempat lahir, tanggal lahir, hobi (checkboxes), password, persetujuan (required checkbox), reset & submit.
+-->
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <title>Form Pendaftaran</title>
+</head>
+<body>
+  <nav>
+    <a href="index-blog.html">Blog</a> |
+    <a href="detail-blog.html">Detail Blog</a> |
+    <a href="register.html">Form Pendaftaran</a> |
+    <a href="grades.html">Tabel Perolehan Nilai</a> |
+    <a href="cv.html">Curriculum Vitae</a>
+  </nav>
+
+  <h1>Form Pendaftaran</h1>
+  <form action="#" method="post">
+    <p>
+      <label>Nama Lengkap:<br>
+        <input type="text" name="nama_lengkap" required>
+      </label>
+    </p>
+
+    <p>Jenis Kelamin:<br>
+      <label><input type="radio" name="jenkel" value="Laki-laki" required> Laki-laki</label><br>
+      <label><input type="radio" name="jenkel" value="Perempuan"> Perempuan</label>
+    </p>
+
+    <p>
+      <label>Tempat Lahir:<br>
+        <input type="text" name="tempat_lahir" required>
+      </label>
+    </p>
+
+    <p>
+      <label>Tanggal Lahir:<br>
+        <input type="date" name="tanggal_lahir" required>
+      </label>
+    </p>
+
+    <p>Hobi (pilih satu atau lebih):<br>
+      <label><input type="checkbox" name="hobi" value="Membaca"> Membaca</label><br>
+      <label><input type="checkbox" name="hobi" value="Olahraga"> Olahraga</label><br>
+      <label><input type="checkbox" name="hobi" value="Bermain Musik"> Bermain Musik</label><br>
+      <label><input type="checkbox" name="hobi" value="Coding"> Coding</label>
+    </p>
+
+    <p>
+      <label>Password:<br>
+        <input type="password" name="password" required>
+      </label>
+    </p>
+
+    <p>
+      <label><input type="checkbox" name="persetujuan" required> Saya menyetujui syarat dan ketentuan.</label>
+    </p>
+
+    <p>
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </p>
+  </form>
+
+  <footer>
+    <p>&copy; 2025 Bunga-Blog</p>
+  </footer>
+</body>
+</html>
