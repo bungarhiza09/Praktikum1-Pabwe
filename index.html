@@ -1,46 +1,67 @@
 <!doctype html>
 <html lang="id">
 <head>
-  <meta charset="utf-8">
-  <title>Bunga-Blog</title>
+  <meta charset="utf-8" />
+  <title>Bunga-Blog — Pembuka</title>
 </head>
 <body>
-  <nav>
-    <a href="index.html">Blog</a> |
-    <a href="detail-blog.html">Detail Blog</a> |
-    <a href="register.html">Form Pendaftaran</a> |
-    <a href="grades.html">Tabel Perolehan Nilai</a> |
-    <a href="cv.html">Curriculum Vitae</a>
-  </nav>
-  <h1>Welcome to this Blog</h1>
-  <h3>I'll show you some blogs for you to increase your ability in programing</h3>
+  <header>
+    <nav aria-label="Navigasi utama">
+      <a href="index.html">Blog</a> |
+      <a href="detail-blog.html">Detail Blog</a> |
+      <a href="register.html">Form Pendaftaran</a> |
+      <a href="grades.html">Tabel Perolehan Nilai</a> |
+      <a href="cv.html">Curriculum Vitae</a>
+    </nav>
 
-  <!-- Artikel 1 -->
-  <article>
-    <h2><a href="detail-blog.html">Belajar HTML Dasar untuk Pemula</a></h2>
-    <p>oleh <strong>Bunga Rhiza Sitorus</strong> | 23 Agustus 2025</p>
-    <p><img src="html.png" alt="Gambar Artikel 1" /></p>
-    <p>Label: <em>HTML</em>, <em>Web</em>, <em>Frontend</em></p>
-  </article>
+    <!-- Hero / Pembuka -->
+    <section aria-labelledby="hero-title">
+      <h1 id="hero-title">Learn to Code</h1>
+      <p>
+        Tempat ringkas untuk belajar pemrograman — artikel, panduan, dan bahan
+        praktis yang cocok untuk pemula hingga menengah.
+      </p>
+      <p>
+        Mulai jelajahi: <a href="#latest-articles">Artikel Terbaru</a> •
+        <a href="register.html">Daftar</a>
+      </p>
+    </section>
+  </header>
 
-  <!-- Artikel 2 -->
-  <article>
-    <h2><a href="detail-blog.html">Algoritma dan Struktur Data: Intisari</a></h2>
-    <p>oleh <strong>Jeremy Manullang</strong> | 10 September 2025</p>
-    <p><img src="alstrudat.jpeg" alt="Gambar Artikel 2" /></p>
-    <p>Label: <em>Algoritma</em>, <em>Pemrograman</em></p>
-  </article>
+  <main>
+    <section id="latest-articles" aria-labelledby="latest-title">
+      <h2 id="latest-title">Mau Belajar Apa hari ini?</h2>
+      <p> Find blogs based on your interests. </p>
 
-  <!-- Artikel 3 -->
-  <article>
-    <h2><a href="detail-blog.html">Panduan Singkat Pengujian Perangkat Lunak</a></h2>
-    <p>oleh <strong>Bunga Rhiza Sitorus</strong> | 1 September 2025</p>
-    <p><img src="software.jpeg" alt="Gambar Artikel 3" /></p>
-    <p>Label: <em>Testing</em>, <em>QA</em></p>
-  </article>
+      <!-- Artikel 1 -->
+      <article>
+        <h3><a href="detail-blog.html">Belajar HTML Dasar untuk Pemula</a></h3>
+        <p>oleh <strong>Bunga Rhiza Sitorus</strong> | 23 Agustus 2025</p>
+        <p><img src="html.png" alt="Ilustrasi HTML" /></p>
+        <p>Label: <em>HTML</em>, <em>Web</em>, <em>Frontend</em></p>
+      </article>
+
+      <h2 id="latest-title">Artikel Terbaru</h2>
+      <!-- Artikel 2 -->
+      <article>
+        <h3><a href="detail-blog.html">Algoritma dan Struktur Data: Intisari</a></h3>
+        <p>oleh <strong>Jeremy Manullang</strong> | 10 September 2025</p>
+        <p><img src="alstrudat.jpeg" alt="Ilustrasi Algoritma dan Struktur Data" /></p>
+        <p>Label: <em>Algoritma</em>, <em>Pemrograman</em></p>
+      </article>
+
+      <!-- Artikel 3 -->
+      <article>
+        <h3><a href="detail-blog.html">Panduan Singkat Pengujian Perangkat Lunak</a></h3>
+        <p>oleh <strong>Bunga Rhiza Sitorus</strong> | 1 September 2025</p>
+        <p><img src="software.jpeg" alt="Ilustrasi Testing" /></p>
+        <p>Label: <em>Testing</em>, <em>QA</em></p>
+      </article>
+    </section>
+  </main>
 
   <footer>
-    <p>&copy; 2025 Bunga-Blog </p>
+    <p>&copy; 2025 Bunga-Blog</p>
   </footer>
 </body>
 </html>
